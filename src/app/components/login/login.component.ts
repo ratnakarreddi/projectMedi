@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
         this.auth.login(this.loginForm.value).subscribe(
           (result) => {
             console.log(result);
-            this.router.navigate(['/admin']);
+            this.router.navigate(['/admin/home']);
           },
           (err: Error) => {
             alert(err.message);
