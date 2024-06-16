@@ -9,6 +9,7 @@ import { ItemMasterComponent } from './components/item-master/item-master.compon
 import { FooterButtonsComponent } from './components/footer-buttons/footer-buttons.component';
 import { ItemTypeComponent } from './components/item-type/item-type.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { UomMasterComponent } from '../../uom-master/uom-master.component';
 
 const routes: Routes = [
   { path:'',component:AdminDashboardComponent ,
@@ -20,6 +21,8 @@ const routes: Routes = [
       { path: 'item-master', component: ItemMasterComponent },
       { path: 'footer-buttons', component: FooterButtonsComponent },
       { path: 'item-type', component: ItemTypeComponent },
+      { path: 'uom-master', component: UomMasterComponent },
+
     ],
   }
 ];
