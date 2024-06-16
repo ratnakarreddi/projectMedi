@@ -5,7 +5,6 @@ import { ForgotPasswordComponent } from './components/forgot-password/forgot-pas
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { authGuard } from './guards/auth.guard';
 
-
 export const routes: Routes = [
     {path:'login', component: LoginComponent},
     {path:'forgot-password', component: ForgotPasswordComponent},
