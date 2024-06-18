@@ -58,7 +58,7 @@ export class AuthService {
     this.restservice.post('/userAPi/login/', data).subscribe(
       (result: any) => {
         this.setToken('abcdefghijklmnopqrstuvwxyz');
-        this.router.navigate(['/admin/home']);
+        this.router.navigate(['/home']);
         return of({ name: 'Tarique Akhtar', email: 'admin@gmail.com' });
       },
       (error: Error) => {
